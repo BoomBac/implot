@@ -2318,7 +2318,7 @@ ImPlotPoint SawWave(int idx, void* data) {
 ImPlotPoint Spiral(int idx, void*) {
     float r = 0.9f;            // outer radius
     float a = 0;               // inner radius
-    float b = 0.05f;           // increment per rev
+    float b = 0.05f;           // Increment per rev
     float n = (r - a) / b;     // number  of revolutions
     double th = 2 * n * 3.14;  // angle
     float Th = float(th * idx / (1000 - 1));
